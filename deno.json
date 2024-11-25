@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "octokit": "https://esm.sh/octokit"
+  }
+}
