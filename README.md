@@ -1,3 +1,5 @@
+[![Code Style: Google](https://img.shields.io/badge/code%20style-google-blueviolet.svg)](https://github.com/google/gts)
+
 # How to use this repository
 1. Fork this repository.
 1. Open https://github.com/settings/personal-access-tokens
