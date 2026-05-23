@@ -14,4 +14,4 @@ jobs:
           node-version: 'latest'
       - run: npm ci
       - run: npx gts lint
-      - run: node main.ts
+      - run: node src/main.ts
