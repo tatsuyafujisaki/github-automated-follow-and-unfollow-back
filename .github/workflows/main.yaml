@@ -2,7 +2,6 @@ on:
   schedule:
     - cron: '0 */12 * * *'
   workflow_dispatch:
-
 jobs:
   run-script:
     runs-on: ubuntu-latest
@@ -10,5 +9,9 @@ jobs:
       GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
     steps:
       - uses: actions/checkout@v6
-      - uses: denoland/setup-deno@v2
-      - run: deno run --allow-all main.ts
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 'latest'
+      - run: npm ci
+      - run: npx gts lint
+      - run: node main.ts

@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "octokit": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "typescript": "latest",
+    "gts": "latest"
+  }
+}
