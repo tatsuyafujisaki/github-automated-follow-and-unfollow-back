@@ -6,5 +6,6 @@
     "@types/node": "latest",
     "typescript": "latest",
     "gts": "latest"
-  }
+  },
+  "private": true
 }
