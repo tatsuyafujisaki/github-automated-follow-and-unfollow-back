@@ -12,6 +12,6 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: 'latest'
-      - run: npm ci
+      - run: npm install
       - run: npx gts lint
       - run: node src/main.ts
